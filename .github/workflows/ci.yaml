@@ -13,11 +13,11 @@ on:
 
 env:
   # Qt: 5.15.0
-  # libtorrent: RC_1_2 HEAD, 1.2.10
+  libtorrent: RC_2_0 HEAD, 2.0.0
   VCPKG_COMMIT: 32eccc18191fbb57b159784a1724d2d00613ae82
   VCPKG_DEST_MACOS: /Users/runner/qbt_tools/vcpkg
   VCPKG_DEST_WIN: C:\qbt_tools\vcpkg
-  UBUNTU_LIBTORRENT_VERSION: libtorrent-1.2.10
+  UBUNTU_LIBTORRENT_VERSION: libtorrent-2.0.0
 
 jobs:
 
